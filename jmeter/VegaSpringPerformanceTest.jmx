@@ -366,12 +366,12 @@
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">20</stringProp>
         <stringProp name="ThreadGroup.ramp_time">20</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">60</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
@@ -510,7 +510,7 @@
           </hashTree>
           <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller" enabled="true">
             <intProp name="ThroughputController.style">1</intProp>
-            <boolProp name="ThroughputController.perThread">false</boolProp>
+            <boolProp name="ThroughputController.perThread">true</boolProp>
             <intProp name="ThroughputController.maxThroughput">50</intProp>
             <FloatProperty>
               <name>ThroughputController.percentThroughput</name>
@@ -588,7 +588,7 @@
         </hashTree>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
-          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
@@ -710,7 +710,7 @@
           </hashTree>
           <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller" enabled="true">
             <intProp name="ThroughputController.style">1</intProp>
-            <boolProp name="ThroughputController.perThread">false</boolProp>
+            <boolProp name="ThroughputController.perThread">true</boolProp>
             <intProp name="ThroughputController.maxThroughput">50</intProp>
             <FloatProperty>
               <name>ThroughputController.percentThroughput</name>
