@@ -59,5 +59,5 @@ Starting spring applicaiton will initialize the database (intialization can be c
 
 ```bash
 cd jmeter
-jmeter -n -t VegaSpringPerformanceTest.jmx -l VegaSpringResult -e -o report
+jmeter -n -t VegaSpringPerformanceTest.jmx -l VegaSpringResult.csv -e -o report
 ```
