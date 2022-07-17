@@ -54,3 +54,10 @@ Starting spring applicaiton will initialize the database (intialization can be c
 | angelinacosta@venus.com | Angelina | Costa | ROLE_STAFF |
 | brijeshgupta@venus.com | Brijesh | Gupta | ROLE_STAFF |
 | amyfofana@venus.com | Amy | Fofana | ROLE_STAFF |
+
+## To run JMeter
+
+```bash
+cd jmeter
+jmeter -n -t VegaSpringPerformanceTest.jmx -l VegaSpringResult -e -o report
+```
