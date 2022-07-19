@@ -2,7 +2,7 @@
 
 import csv
 
-NUM_USERS = 1000
+NUM_USERS = 3010
 
 if __name__ == "__main__":
     user_list = []
